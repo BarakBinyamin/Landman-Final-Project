@@ -1,0 +1,51 @@
+#This is skeleton code for Euler Problem one in python
+#project Euler problems can be found at https://projecteuler.net/archives
+
+#question #1 ######## multiples of three and five ##########
+#this prints multiples of three and five in order up to n
+#the problem is find the sum of the multiples of three and five up to n 
+
+# #state your variables # #
+#make a three_total variable and set it to an initial value of 3
+three_total= 3
+#make a five_total variable and set it to an initial value of 5
+five_total= 5
+#make a running_sum variable and set it to an initial value of 0
+r_s=0 #running sum 
+#make a last_added variable and set it to an initial value of 0
+#the last_added varable is added to avoid double counted nmultiples 
+last_added=0
+
+#make a user input with the question "Multiples of 3 and 5 up to?"
+n= input("Multiples of 3 and 5 up to? ")
+
+#make a loop that  prints the multiple of three and five in order,while simultaniously adding the multiples to a running sum it also makes sure the numbers are printed
+#make a while loop with the conditions three_total and five_total less than or equal to n 
+while three_total <= n and five_total <= n : #makes sure smallest number printed first
+  #make an if statement with the conditions three_total less than or equal to five_total
+  if three_total<= five_total:
+      #make an if statement with the conditions last_added not equal to three_total
+      if last_added != three_total: # makes sure double counting doesn't happen
+      #make a print stament for three_total 
+        print three_total
+        #add three_total to runnin_sum
+        r_s += three_total 
+        #set last added equal to three_total
+        last_added = three_total 
+      #add three to three_total
+      three_total += 3
+  #make an else statement
+  else:
+    #make an if statement with the conditions last_added not equal to five_total
+    if last_added != five_total:
+      #make a print stament for five_total
+      print five_total
+      #add five_total to runnin_sum
+      r_s += five_total
+      #set last added equal to five_total
+      last_added = five_total
+    #add five to five_total
+    five_total += 5
+
+#make a print statement to print the sum 
+print "the sum = " + str(r_s)
