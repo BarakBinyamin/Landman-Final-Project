@@ -1,0 +1,31 @@
+#By considering the terms in the Fibonacci sequence whose values do not exceed four million, 
+#find the sum of the even-valued terms.
+
+#declare variables
+#make a temporary_term1 and set its value to 1
+
+#make a temporary_term2 and set its value to 1
+
+#make a temporary_term3 and set its value to 1
+
+#make a running_sum and set its value to 0
+
+
+#make a user input with the question "Find the sum of the even-valued terms in the Fibonacci sequence up to?"
+
+
+#make a loop with the conditions tmep term is less than n
+    
+    #set temporary_term3 equal to the sume of temporary terms 1 and 2
+                    # Fibonacci sequence formula - Term_n=term(number-2) + term(number-1)
+    #set temporary_term1 equal to temporary term 2
+                    #set temporary term one to the value of term two
+    #set temporary_term2 equal to temporary term 3
+                    #set temporary term two to the value of term three
+    #make an if statement with the conditions temporary_term2 is even
+   
+        #add the temporary term 3 to the running sum 
+                    #add current term to running sum
+#make a statement that prints the sum of the even-valued terms in the Fibonacci sequence up to n        
+
+ 
