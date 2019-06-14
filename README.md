@@ -9,3 +9,5 @@
 #Backlog Items: project euler problems, list of resources to help, skeleton code, and completed code.
 
 #recorces: google.com, youtube.com, geeksforgeeks.org
+
+THANK YOU FOR BEING SUCH AN AWESOME TEACHER MR.LANDMAN
